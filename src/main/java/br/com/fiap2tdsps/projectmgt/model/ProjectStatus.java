@@ -1,4 +1,8 @@
 package br.com.fiap2tdsps.projectmgt.model;
 
-public class ProjectStatus {
+public enum ProjectStatus {
+    PLANEJADO,
+    EM_ANDAMENTO,
+    CONCLUIDO,
+    CANCELADO
 }

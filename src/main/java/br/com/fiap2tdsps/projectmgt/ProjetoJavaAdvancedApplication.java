@@ -1,5 +1,6 @@
 package br.com.fiap2tdsps.projectmgt;
 
+import br.com.fiap2tdsps.projectmgt.model.Project;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -7,6 +8,5 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ProjetoJavaAdvancedApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ProjetoJavaAdvancedApplication.class, args);
-    }
+}
 }
